@@ -1,0 +1,81 @@
+.plusImage {
+    height: 50px;
+    width: 50px;
+    float: right;
+    padding: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.fruit-img {
+    height: 100px;
+    width: 100px !important;
+}
+.card:hover {
+    box-shadow: 0.1px 0.1px 15px #bbbaba, 0.1px 0.1px 15px #bbbaba;
+    cursor: pointer;
+}
+
+.fruit-desc {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color:#a1a1a1;
+    padding-top: 10px !important;
+}
+
+.fruit-price {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #a1a1a1;
+}
+
+.slider-filter-wrapper button{
+    margin-left: 16px;
+}
+
+.slider-filter{
+    text-align: left;
+}
+
+.slider-filter-price {
+    font-size: 16px;
+    color: #878787;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.slider-filter-price p {
+    margin: 0;
+}
+
+.slider-filter-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+}
+
+.filter-row {
+    width: 100%;
+}
+
+.filter-error {
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.filter-empty {
+    color: #505763;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.icon-font {
+    font-size: 180px;
+}
